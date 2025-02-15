@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff4757;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.cta-button:hover {
+    transform: scale(2); 
+}
