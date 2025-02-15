@@ -41,5 +41,5 @@ body, html {
 }
 
 .cta-button:hover {
-    transform: scale(2); 
+    background-color: #800000;
 }
